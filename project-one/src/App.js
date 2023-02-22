@@ -1,11 +1,21 @@
-import logo from './logo.svg';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 
+//Need to figure out what components/tourist attractions I can create/promote
+
+/*
+So maybe:
+
+Educational: Cascade Kingdom
+City Life: Metro Kingdom
+Beach Life: Seaside Kingdom
+Nature: Wooded Kingdom, Lake Kingdom
+Eateries: Luncheon Kingdom
+*/
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
