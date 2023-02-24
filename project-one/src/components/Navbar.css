@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    height:40px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #f2f1df;
+    font-family: 'SuperMario256', Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-text{
+    display:flex;
+    justify-content: center;
+    padding-top:10px;
+}
+a, a:visited, a:link{
+    color: #695656;
+}
+
+a:hover{
+    color: #d92727;
+}

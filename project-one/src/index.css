@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'SuperMario256';
+  src: url(fonts/SuperMario256.ttf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
