@@ -1,4 +1,6 @@
-
+.home{
+    margin: 20px;
+}
 
 .brickBlock{
     background-image: url(../../../images/marioBrickBlock3.png);

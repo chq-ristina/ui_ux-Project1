@@ -4,7 +4,7 @@ import Beach from './components/pages/Beach/Beach';
 import Eateries from './components/pages/Eateries/Eateries';
 import Educational from './components/pages/Educational/Educational';
 import Nature from './components/pages/Nature/Nature';
-import Urban from './components/pages/Urban/Urban';
+import CityLife from './components/pages/CityLife/CityLife';
 import Home from './components/pages/Home/Home';
 import Navbar from './components/Navbar';
 
@@ -30,7 +30,7 @@ function App() {
             <Route path='/eateries' element={<Eateries/>}></Route>
             <Route path='/educational' element={<Educational/>}></Route>
             <Route path='/nature' element={<Nature/>}></Route>
-            <Route path='/urban' element={<Urban/>}></Route>
+            <Route path='/city-life' element={<CityLife/>}></Route>
           </Routes>
         </Router>
     </div>
