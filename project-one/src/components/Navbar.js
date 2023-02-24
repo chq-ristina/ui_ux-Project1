@@ -23,7 +23,7 @@ function Navbar() {
                 <Link style={{textDecoration: 'none'}} to='/nature'>
                     <span className="nav-text">Nature</span>
                 </Link>
-                <Link style={{textDecoration: 'none'}} to='/urban'>
+                <Link style={{textDecoration: 'none'}} to='/city-life'>
                     <span className="nav-text">City Life</span>
                 </Link>
             </div>
