@@ -14,8 +14,12 @@ function Home() {
   return (
     <div className='home'>
         <h1>Welcome to the kingdoms of Super Mario Odyssey!</h1>
-        <img className='kingdoms' src={kingdoms}></img>
-        <BrickBox className='brick-box' {...brickBoxProps}/>
+        {/*<div className='home-content'> */}
+          <img className='kingdoms' src={kingdoms}></img>
+          <BrickBox className='brick-box' {...brickBoxProps}/>
+        {/*</div>*/}
+        
+        
     </div>
   )
 }
