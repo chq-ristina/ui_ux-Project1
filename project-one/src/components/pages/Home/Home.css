@@ -1,34 +1,32 @@
 h1{
-    margin-bottom: 30px;
+    margin: 30px;
+    /*margin-bottom: 30px;*/
 }
 
 .home{
     margin: 0;
     position:absolute;
-    /*display: grid;*/
+    text-align: center;
 }
 
 .home-content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .kingdoms{
     width: 100%;
     height: auto;
-
-    /*position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);*/
-
 }
 
+
 .brick-box{
+    margin: 20px;
+    padding-bottom: 20px;
+    height: 250px;
+    
 }
 /*.brickBox{
     margin: auto;

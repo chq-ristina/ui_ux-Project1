@@ -8,9 +8,12 @@ function BrickBox(props) {
   };  
   return (
     <div className='brickBlock' style={brickBoxStyle}>
+      <div className='brickBlock-text' style={brickBoxStyle}>
         <span>
-            {props.text}
+          {props.text}
         </span>
+      </div>
+        
     </div>
   )
 }
