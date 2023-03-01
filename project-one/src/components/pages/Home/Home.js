@@ -8,7 +8,7 @@ function Home() {
   let brickBoxProps = {
     text: welcome,
     height: 250,
-    width: 600
+    width: 1000
   }
 
   return (
