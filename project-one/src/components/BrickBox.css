@@ -1,0 +1,25 @@
+.brickBlock{
+    background-image: url(../images/marioBrickBlock3.png);
+    
+    color: #f2f1df;
+    font-weight: bold;
+    
+    height: 150px;
+    width: 45%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brickBlock-text{
+    display: table;
+    height: 150px;
+    width: 45%;
+    text-align: center;
+}
+.brickBlock-text span{
+    display: table-cell;
+    vertical-align: middle;
+}

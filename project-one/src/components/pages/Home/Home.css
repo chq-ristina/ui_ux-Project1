@@ -1,7 +1,29 @@
+h1{
+    margin: 30px;
+}
+
 .home{
-    background-image: url(../../../images/SuperMarioOdysseyTitleScreen.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: scroll;
+    margin: 0;
+    position:absolute;
+    text-align: center;
+}
+
+.home-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.kingdoms{
+    width: 100%;
+    height: auto;
+}
+
+
+.brick-box{
+    margin: 20px;
+    padding-bottom: 20px;
+    height: 250px;
+    
 }
