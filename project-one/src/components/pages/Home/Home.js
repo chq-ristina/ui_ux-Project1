@@ -19,10 +19,7 @@ function Home() {
           <div className='brick-box'>
             <BrickBox {...brickBoxProps}/>
           </div>
-          
         </div>
-        
-        
     </div>
   )
 }
