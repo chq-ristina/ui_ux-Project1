@@ -2,7 +2,9 @@ import React from 'react'
 
 function Beach() {
   return (
-    <div>Beach</div>
+    <div>
+      <h1>The Beaches of Super Mario Odyssey</h1>
+    </div>
   )
 }
 
