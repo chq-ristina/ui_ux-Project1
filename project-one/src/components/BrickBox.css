@@ -3,6 +3,7 @@
     
     color: #f2f1df;
     font-weight: bold;
+    font-size: 1.2em;
     
     height: 150px;
     width: 45%;
@@ -12,7 +13,7 @@
     align-items: center;
     flex-wrap: wrap;
 
-    border-radius: 25px ;
+    border-radius: 15px ;
 }
 
 .brickBlock-text{
