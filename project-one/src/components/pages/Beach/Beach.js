@@ -1,5 +1,5 @@
 import React from 'react'
-import './Beach.css';
+import '../Pages.css';
 import SeasideMapImage from '../../../images/Seaside/Seaside_Map_Image.JPG';
 import MarioRelaxing from '../../../images/Seaside/Mario_Relaxing.JPG';
 import SeasideMapInfo from '../../../images/Seaside/Seaside_MapInfo.JPG';
@@ -30,7 +30,7 @@ function Beach() {
   return (
     <div>
       <h1>Visit the sandy beaches of Seaside Kingdom!</h1>
-      <img className='seaside-map' src={SeasideMapImage}></img>
+      <img className='map' src={SeasideMapImage}></img>
       
       <div className='grid-container'>
         <img className='seaside-map-info' src={SeasideMapInfo}></img>
