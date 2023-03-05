@@ -33,19 +33,19 @@ function CityLife() {
 
       <div className='grid-container'>
         <img src={MetroInfo}></img>
-        <BrickBox width={brickBoxProps.width} height={225} text={mapText}/>
+        <BrickBox className='brick-box' width={brickBoxProps.width} height={225} text={mapText}/>
 
         <img src={MetroView}/>
-        <BrickBox width={brickBoxProps.width} height={345} text={viewText} />
+        <BrickBox className='brick-box' width={brickBoxProps.width} height={345} text={viewText} />
 
         <img src={Store}></img>
-        <BrickBox width={brickBoxProps.width} height={450} text={storeText}/>
+        <BrickBox className='brick-box' width={brickBoxProps.width} height={450} text={storeText}/>
 
         <img src={Park}/>
-        <BrickBox width={brickBoxProps.width} height={300} text={parkText}/>
+        <BrickBox className='brick-box' width={brickBoxProps.width} height={300} text={parkText}/>
 
         <img src={Scooter}/>
-        <BrickBox width={brickBoxProps.width} height={325} text={scooterText}/>
+        <BrickBox className='brick-box' width={brickBoxProps.width} height={325} text={scooterText}/>
       </div>
     </div>
   )

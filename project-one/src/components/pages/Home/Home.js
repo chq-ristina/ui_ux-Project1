@@ -17,7 +17,7 @@ function Home() {
         <div className='home-content'>
           <img className='kingdoms' src={kingdoms}></img>
           <div className='brick-box'>
-            <BrickBox {...brickBoxProps}/>
+            <BrickBox className='brick-box' {...brickBoxProps}/>
           </div>
         </div>
     </div>

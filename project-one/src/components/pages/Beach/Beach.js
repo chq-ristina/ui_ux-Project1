@@ -34,16 +34,16 @@ function Beach() {
       
       <div className='grid-container'>
         <img className='seaside-map-info' src={SeasideMapInfo}></img>
-        <BrickBox {...brickBoxProps} text={mapInfo}/>
+        <BrickBox className='brick-box' {...brickBoxProps} text={mapInfo}/>
 
         <img className='swimming' src={Swimming}></img>
-        <BrickBox width={brickBoxProps.width} height={350} text={swimmingText}/>
+        <BrickBox className='brick-box' width={brickBoxProps.width} height={350} text={swimmingText}/>
 
         <img className='volleyball' src={Volleyball}></img>
-        <BrickBox width={brickBoxProps.width} height={300} text={volleyballText}/>
+        <BrickBox className='brick-box' width={brickBoxProps.width} height={300} text={volleyballText}/>
 
         <img src={MarioRelaxing}/>
-        <BrickBox width={brickBoxProps.width} height={355} text={relaxingText}/>
+        <BrickBox className='brick-box' width={brickBoxProps.width} height={355} text={relaxingText}/>
       </div>
     </div>
   )
