@@ -30,13 +30,13 @@ function Educational() {
         <BrickBox width={width} height={215} text={infoText}/>
 
         <img src={Falls}></img>
-        <BrickBox width={width} height={250} text={fallsText}/>
+        <BrickBox width={width} height={750} text={fallsText}/>
 
         <img src={CascadeView}/>
-        <BrickBox width={width} height={250} text={viewText}/>
+        <BrickBox width={width} height={340} text={viewText}/>
 
         <img src={Dino}/>
-        <BrickBox width={width} height={250} text={dinoText}/>
+        <BrickBox width={width} height={390} text={dinoText}/>
       </div>
     </div>
   )

@@ -23,13 +23,13 @@ function Eateries() {
 
       <div className='grid-container'>
         <img src={LuncheonInfo}></img>
-        <BrickBox width={width} height={250} text={infoText}/>
+        <BrickBox width={width} height={225} text={infoText}/>
 
         <img src={LuncheonView}/>
-        <BrickBox width={width} height={250} text={viewText}/>
+        <BrickBox width={width} height={530} text={viewText}/>
 
         <img src={Carnival}/>
-        <BrickBox width={width} height={250} text={carnivalText}/>
+        <BrickBox width={width} height={360} text={carnivalText}/>
       </div>
     </div>
   )
