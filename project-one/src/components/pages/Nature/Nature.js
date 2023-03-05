@@ -35,16 +35,16 @@ function Nature() {
         <BrickBox className='brick-box' width={width} height={220} text={mapText}/>
 
         <img src={Factory} /*style={{width: 500}}*//>
-        <BrickBox className='brick-box' width={width} height={500} text={factoryText} style="align-self: center;"/>
+        <BrickBox className='brick-box' width={width} height={730} text={factoryText} style="align-self: center;"/>
 
         <img src={Guardians}></img>
-        <BrickBox className='brick-box' width={width} height={250} text={guardiansText}/>
+        <BrickBox className='brick-box' width={width} height={350} text={guardiansText}/>
 
         <img src={Flowers}/>
-        <BrickBox className='brick-box' width={width} height={250} text={flowersText}/>
+        <BrickBox className='brick-box' width={width} height={535} text={flowersText}/>
 
         <img src={Pathway}/>
-        <BrickBox className='brick-box' width={width} height={250} text={pathwayText}/>
+        <BrickBox className='brick-box' width={width} height={330} text={pathwayText}/>
 
       </div>
     </div>

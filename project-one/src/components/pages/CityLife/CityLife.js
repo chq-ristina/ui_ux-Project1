@@ -39,7 +39,7 @@ function CityLife() {
         <BrickBox className='brick-box' width={brickBoxProps.width} height={345} text={viewText} />
 
         <img src={Store}></img>
-        <BrickBox className='brick-box' width={brickBoxProps.width} height={450} text={storeText}/>
+        <BrickBox className='brick-box' width={brickBoxProps.width} height={545} text={storeText}/>
 
         <img src={Park}/>
         <BrickBox className='brick-box' width={brickBoxProps.width} height={300} text={parkText}/>
