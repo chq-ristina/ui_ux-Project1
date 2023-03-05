@@ -18,3 +18,7 @@
     row-gap: 20px;
     column-gap: 20px;
 }
+
+.grid-container .brick-box{
+    align-self: center;
+}
